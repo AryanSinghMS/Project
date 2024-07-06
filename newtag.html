@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dl Dd Dt</h1>
+    <p>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>milk</dt>
+            <dd>White cold drink</dd>
+        </dl>
+    </p>
+    <h2>learning a tag</h2>
+    <a href="https://aikam.in/">aikam</a>
+    <a href="images\logo\GIHSM.png" download>download</a>
+    <a href="https://aikam.in/" target="_blank">aikam</a>
+    <a href="https://aikam.in/" target="_parent">aikam</a>
+    <a href="https://aikam.in/" target="_self">aikam</a>
+    <a href="https://aikam.in/" target="_top">aikam</a>
+
+    <figure>
+
+    <img src="images/planet.jpg" height="720" width="1280" alt="planet" usemap="#planet">
+    <figcaption>Fig:Solar System</figcaption>
+    </figure>
+    
+    <map name="planet">
+        <area shape="rect" coords="34,44,270,350" href="sun.html" alt="Sun">
+        <area shape="circle" coords="570,370,40" href="Earth.html" alt="Earth">
+    </map>
+    <canvas id="My canvas">It is not supported
+    </canvas>
+    <script>
+        var c=document.getElementById("My canvas");
+        var ctx=c.getContext("2d");
+        ctx.fillStyle="green";
+        ctx.fillRect(45,60,132,23);
+    </script>
+    <picture>
+        <source media="(min-width: 999px)" srcset="images\logo\GIHSM.png">
+        <source media="(min-width: 720px)" srcset="images\planet.jpg">
+        <img src="images\1.jpg" height="720" width="1280" alt="planet" usemap="#planet">
+    </picture>
+    <h1>The svg </h1>
+    <svg width="300" height="200">
+        <polygon points="100,10,40,198,78,10">
+
+    </svg>
+    <svg width="1000" height="800">
+        <circle cx="50" cy="60" r="30" stroke="black" stroke-width="5" fill="red"></circle>
+        <rect x="120" y="60" width="200" height="100" stroke="black" stroke-width="5" fill="green">   </rect>
+
+    </svg>
+    
+
+</body>
+</html>
