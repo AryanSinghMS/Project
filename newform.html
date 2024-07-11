@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     h1{color:brown}
+</style>
+
+<body>
+    <h1>Input Element</h1>
+    <form action="data.html" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="name" required><br><br>
+        <label for="fname">Address</label>
+        <textarea name="Address" id="Address"></textarea>
+        <input type="button" value="Button" name="but">
+        <input type="checkbox" name="chkM" value="0" checked>Male<input type="checkbox" name="chkF"
+            value="1">Female<br><br>
+        <input type="color" name="color"><br><br>
+        <fieldset>
+            <legend>Date & Time</legend>
+            <input type="date" name="txtdate"><br>
+            <input type="datetime-local" name="DT"><br>
+            <input type="time" name="T"><br>
+            <input type="month" name="M"><br>
+            <input type="week" name="W"><br>
+        </fieldset>
+        <br>
+        <input type="email" placeholder="email" name="mail">
+        <input type="file" name="File">
+        <input type="hidden" name="hid"><br><br>
+        <input type="image" name="img"><br><br>
+        <input type="number" placeholder="only number" name="no.">
+        <input type="password" placeholder="hidden values" name="pass"><br><br>
+        <input type="radio" name="GEN" value="M">male <input type="radio" name="GEN" value="F">female
+        <input type="range" name="rj">
+        <input type="reset" name="">
+        <input type="search" placeholder="searchbox" name="team">
+        <input type="tel" placeholder="telephone no" name="tel">
+        <input type="url" placeholder="www.google.com" name="web">
+        <br>
+        <label for="fname"> Course </label>
+        <select name="Course" id="course">
+            <option value="none">--Select--</option>
+            <optgroup label="Under Greduate">
+                <option value="Ug_BCA">BCA</option>
+                <option value="Ug_BBA">BBA</option>
+                <option value="Ug_Bcom">Bcom</option>
+                <option value="Ug_BFA">BFA</option>
+                <option value="Ug_Bcom{h}">Bcom{h}</option>
+                <option value="Ug_BVA">BVA</option>
+            </optgroup>
+            <optgroup label="Post Greduate">
+                <option value="Pg_MBA">MBA</option>
+                <option value="Pg_MCA">MCA</option>
+                <option value="Pg_Mcom">Mcom</option>
+                <option value="Pg_MFA">MFA</option>
+            </optgroup>
+
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+
+        </select>
+        <button type="submit" value="submit"><img src="images\logo\GAMCH.png" alt=""></button>
+        <button type="reset" value="reset"><img src="images\logo\GIPS.png" alt=""></button>
+        <button type="button" value="button"><img src="images\logo\GIPcS.png" alt=""></button>
+        <input type="submit" value="submit" name="sub">
+    </form>
+    <div style="background-color: aqua;">
+    <h2>Lorem</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis<span style="color:blue; font-weight: bold">blue</span> <br>
+        perferendis reprehenderit eaque officia in veritatis consectetur quod voluptates minima et facere dignissimos suscipit maiores, <br>
+        aspernatur iure odit eveniet quisquam? Veniam?<br>
+    </p>
+    </div>
+    <details>
+        <summary>Copyright 1999-2018.</summary>
+        <p> by Refsnes Data. All Rights Reserved.</p>
+        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+        </details>
+</body>
+
+</html>
