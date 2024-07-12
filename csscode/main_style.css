@@ -1,0 +1,66 @@
+#container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid black  ;
+    }
+    #top_head{
+        border: 1px solid black;
+        display: flex;
+        width: 100%;
+        height: 150px;
+    
+    
+    
+    }
+    #logo{
+        border: 1px solid black;
+    height: 148px;
+    width: 200px;
+    }
+    #banner{
+        border: 1px solid black;
+    height: 146px;
+    width:100%;
+    
+    }
+    #main_content{
+        margin: 10px;
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #row1{
+        display: flex;
+    }
+    
+    #main_content2{
+        margin: 10px;
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .Thumb{
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid black;
+        height: 120px;
+        width: 120px;
+        align-items: center;
+    }
+    .Thumb1{
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid black;
+        height: 120px;
+        width: 120px;
+        align-items: center;
+    }
