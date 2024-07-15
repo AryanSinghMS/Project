@@ -63,3 +63,12 @@
         width: 120px;
         align-items: center;
     }
+    
+    .Thumb2{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    }
